@@ -21,7 +21,7 @@ Esta es una prueba de APIs para los endpoints:
    ![image](https://github.com/dbchango/qa-automation-exercises/assets/49067691/4e6ff4a1-5d5b-4361-bdbd-9f7165f9f587)
 3. Ejecutaremos la clase en el archivo
    ![image](https://github.com/dbchango/qa-automation-exercises/assets/49067691/80fc876f-797d-41ae-b702-f845ed4b32a6)
-5. El reporte lo podremos revisar en "target/karate-reports/karate-summary.html"
+5. El reporte lo podremos revisar en "target/karate-reports/karate-summary.html" [karate-summary.html](./target/karate-reports/karate-summary.html)
    ![image](https://github.com/dbchango/qa-automation-exercises/assets/49067691/0ee7d438-9207-4265-bd8c-99fce04e1bd6)
 
 [CONCLUSIONES](./conclusiones.txt)
