@@ -27,6 +27,7 @@ npm run test-open
 5. Seleccionaremos el navegador que utilizaremos para la ejecución.
 6. Buscamos la prueba a ejecutar y la seleccionamos.
 7. A continuación, podremos ver los resultados de la ejecución paso a paso, incluyendo imágenes, facilitando la comprensión de los resultados.
+
 [CONCLUSIONES](./conclusiones.txt)
 
 [REGRESAR](../README.md)
