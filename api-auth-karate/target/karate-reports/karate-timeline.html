@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"users\/auth[1:36]","start":1715323494203,"end":1715323495448,"title":"users\/auth[1:36] 01:44:54.203-01:44:55.448 Registrar usuario nuevo"},{"id":2,"group":1,"content":"users\/auth[2:42]","start":1715323495455,"end":1715323495727,"title":"users\/auth[2:42] 01:44:55.455-01:44:55.727 Registrar usuario ya existente"},{"id":3,"group":1,"content":"users\/auth[3:49]","start":1715323495732,"end":1715323496026,"title":"users\/auth[3:49] 01:44:55.732-01:44:56.026 Ingreso credenciales correctas"},{"id":4,"group":1,"content":"users\/auth[4:55]","start":1715323496031,"end":1715323496301,"title":"users\/auth[4:55] 01:44:56.031-01:44:56.301 Ingreso user incorrecto"},{"id":5,"group":1,"content":"users\/auth[5:62]","start":1715323496306,"end":1715323496565,"title":"users\/auth[5:62] 01:44:56.306-01:44:56.565 Ingreso password incorrecto"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>
