@@ -24,5 +24,3 @@ Esta es una prueba de APIs para los endpoints:
 5. El reporte lo podremos revisar en "target/karate-reports/karate-summary.html"
    ![image](https://github.com/dbchango/qa-automation-exercises/assets/49067691/0ee7d438-9207-4265-bd8c-99fce04e1bd6)
 
-
-# Instalación de dependencias
