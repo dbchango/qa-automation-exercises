@@ -3,4 +3,5 @@
 node_modules/
 
 cypress/results/
-./mochawesome.*
+mochawesome.json
+mochawesome.html
