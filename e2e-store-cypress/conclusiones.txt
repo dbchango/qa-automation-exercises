@@ -1,0 +1,12 @@
+Conclusiones
+
+- El uso de Cypress simplifica la descomposición de un flujo complejo,
+  permitiendo crear casos de prueba puntuales que son más fáciles de
+  comprender y hacerles seguimiento.
+- La importancia de las pruebas E2E se evidencia al cubrir flujos críticos
+  de la aplicación, haciendo referencia a funcionalidades que son muy utilizadas 
+  (fundamentales) por el usuario.
+- Una estructura correcta en un proyecto de pruebas automatizadas es igual de 
+  importante que en un proyecto de implementación de software, es importante 
+  cumplir con criterios de calidad para garantizar la mantenibilidad y uso de
+  este tipo de artefactos (haciendo referencia a las automatizaciones).

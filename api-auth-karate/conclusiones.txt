@@ -1,0 +1,7 @@
+Conclusiones:
+- KARATE facilita la creación de pruebas a APIs a la medida, nos da varias opciones para
+  la ejecución de la prueba, así como opciones para validaciones de cada prueba.
+- Este tipo de prueba facilitan la validación de endpoints, reduciendo los tiempos de prueba
+  a comparación de si se hicieran manualmente.
+- El uso del lenguaje natural nos permite describir mejor los flujos, por ende son fáciles de 
+ comprender.
