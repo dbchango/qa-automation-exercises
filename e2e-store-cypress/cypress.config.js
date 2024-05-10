@@ -8,6 +8,14 @@ module.exports = defineConfig({
     },
     chromeWebSecurity: false,
     testIsolation: false,
-    reporter: 'reporters/custom.js',
-  },
+    reporter: 'mochawesome',
+    reporterOptions: {
+      reportDir: 'cypress/results',
+      overwrite: false,
+      html: false,
+      json: true,
+    }
+  }
 });
+
+

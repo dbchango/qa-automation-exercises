@@ -4,12 +4,17 @@
   "description": "Ejercicio de QA automatización",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --reporter mochawesome",
-    "test-open": "npx cypress open"
+    "cypress:test": "npx cypress run --reporter-options reportDir='cypress/results',overwrite=true,html=false,json=true",
+    "merge_reports": "npx mochawesome-merge cypress/results/*.json > mochawesome.json",
+    "report": "marge marge mochawesome.json --reportDir ./ --inline"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^13.9.0"
+    "cypress": "^13.9.0",
+    "mocha": "^10.4.0",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^4.3.0",
+    "mochawesome-report-generator": "^6.2.0"
   }
 }
