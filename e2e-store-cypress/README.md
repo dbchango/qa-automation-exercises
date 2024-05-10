@@ -27,6 +27,9 @@ npm run merge_reports
 npm run report
 ```
 4. Para revisar los reportes podemos ver que se generó un archivo con el nombre "mochawesome.html", se adjuntaron los resultados de una ejecución previa: [mochawesome1.html](./mochawesome1.html)
+![image](https://github.com/dbchango/qa-automation-exercises/assets/49067691/20233698-5069-4701-869c-7b5c6a148267)
+
+
 [CONCLUSIONES](./conclusiones.txt)
 
 [REGRESAR](../README.md)
