@@ -4,7 +4,7 @@
   "description": "Ejercicio de QA automatización",
   "main": "index.js",
   "scripts": {
-    "cypress:test": "npx cypress run --reporter-options reportDir='cypress/results',overwrite=true,html=false,json=true",
+    "cypress:test": "npx cypress run --reporter-options reportDir='cypress/results',overwrite=false,html=false,json=true",
     "merge_reports": "npx mochawesome-merge cypress/results/*.json > mochawesome.json",
     "report": "marge marge mochawesome.json --reportDir ./ --inline"
   },
