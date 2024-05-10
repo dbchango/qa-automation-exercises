@@ -14,20 +14,19 @@ npm install
 2. Podremos ver que se agrega la carpeta "node_modules"
 
 # Ejecución de las pruebas
-1. Desde la raíz del proyecto ejecutaremos el comando:
+1. Desde la raíz del proyecto ejecutaremos el siguiente comando para correr las pruebas:
 ```
-npm run test
+npm run cypress:test
 ```
-2. Podremos ver como se ejecuta la prueba y los resultados de la misma en la línea de comandos
-3. Alternativamente podremos ejecutar el comando:
+2. Ejecutaremos el siguiente comando para hacer merge de los reportes resultantes de la ejecución de la prueba:
 ```
-npm run test-open
+npm run merge_reports
 ```
-4. De esta forma se abrirá una Interfaz de Usuario para la ejecución de la prueba.
-5. Seleccionaremos el navegador que utilizaremos para la ejecución.
-6. Buscamos la prueba a ejecutar y la seleccionamos.
-7. A continuación, podremos ver los resultados de la ejecución paso a paso, incluyendo imágenes, facilitando la comprensión de los resultados.
-
+3. Ejecutaremos el siguiente comando para generar el reporte en .html
+```
+npm run report
+```
+4. Para revisar los reportes podemos ver que se generó un archivo con el nombre "mochawesome.html", se adjuntaron los resultados de una ejecución previa: [mochawesome1.html](./mochawesome1.html)
 [CONCLUSIONES](./conclusiones.txt)
 
 [REGRESAR](../README.md)
